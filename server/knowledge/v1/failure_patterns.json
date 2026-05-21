@@ -1,0 +1,162 @@
+[
+  {
+    "pattern_id": "leading_conservative",
+    "label": "领先保守病",
+    "trigger": {
+      "keywords": ["领先", "翻盘", "被追"],
+      "match_result": ["LOSE"]
+    },
+    "psychological_root": "领先后怕输，开始只想着别失误。",
+    "tactical_consequence": "节奏变慢、落点变短，对手更容易进入状态，你反而更被动。",
+    "fix": [
+      "领先时发球局第一分固定执行一个主动动作（上网/提速/变线）",
+      "中性球优先深度而不是保守过网",
+      "关键分打大目标落点：深中路/反手深区，不追小角度"
+    ],
+    "drill_id": "approach_net_combo"
+  },
+  {
+    "pattern_id": "pressure_conservative",
+    "label": "压力下保守失误",
+    "trigger": {
+      "self_state_tags": ["心态崩了"],
+      "keywords": ["关键分", "抢七", "30:40", "5:5"]
+    },
+    "psychological_root": "压力来时动作变小，变成只求过网。",
+    "tactical_consequence": "回球短、对手更容易主动得分，你越保守越挨打。",
+    "fix": [
+      "每个关键分开始前做固定例行动作（系鞋带/拍框敲腿）重置节奏",
+      "关键分只执行一个简单策略：固定打反手斜线深区",
+      "降低击球速度 20% 换回稳定和深度"
+    ],
+    "drill_id": "critical_point_routine"
+  },
+  {
+    "pattern_id": "return_passive",
+    "label": "接发球被动综合征",
+    "trigger": {
+      "opponent_tags": ["一发凶猛"],
+      "keywords": ["接发"]
+    },
+    "psychological_root": "接发只想着先碰到球，不敢主动选方向。",
+    "tactical_consequence": "回球太短或太中路，被第三拍抢攻，整场被牵着走。",
+    "fix": [
+      "接发站进半步，把回球固定打对手反手深区",
+      "接发后第一拍立刻回到中路，不在原地看球",
+      "接发不追质量，先追方向与深度"
+    ],
+    "drill_id": "return_advance_step"
+  },
+  {
+    "pattern_id": "momentum_loss",
+    "label": "失去节奏恶性循环",
+    "trigger": {
+      "self_state_tags": ["心态崩了"],
+      "keywords": ["越打越差", "失去节奏", "一泄气"]
+    },
+    "psychological_root": "连续失误后急于扳回来，动作和节奏更乱。",
+    "tactical_consequence": "回合越来越短、失误越来越多，形成连丢分。",
+    "fix": [
+      "连丢 2 分后下一分只打深中路，把节奏稳住",
+      "回合目标改成 5 拍以上再找机会",
+      "每分之间用固定呼吸节奏重置"
+    ],
+    "drill_id": "rhythm_reset"
+  },
+  {
+    "pattern_id": "over_aggressive",
+    "label": "领先时过度进攻",
+    "trigger": {
+      "match_result": ["LOSE"],
+      "keywords": ["失误太多", "乱打", "上头"]
+    },
+    "psychological_root": "想用更快方式结束比赛，忽略了当下的安全球选择。",
+    "tactical_consequence": "非必要加速导致失误飙升，送对手回魂。",
+    "fix": [
+      "把进攻拆成两步：先拿短球，再结束",
+      "领先时减少小角度致胜，优先深度压制",
+      "规定每局最多 1 次高风险出手，其余走安全球"
+    ],
+    "drill_id": "short_ball_control"
+  },
+  {
+    "pattern_id": "deciding_set_collapse",
+    "label": "决胜盘体力崩溃",
+    "trigger": {
+      "score_flags": ["went_to_deciding_set"],
+      "self_state_tags": ["体力差"]
+    },
+    "psychological_root": "体能下降后动作走样，判断变慢。",
+    "tactical_consequence": "回合被拖长就顶不住，失误和被动增多。",
+    "fix": [
+      "主动缩短回合：发球后抢第三拍",
+      "接发站位更靠前，减少跑动距离",
+      "关键分优先打深中路减少角度追逐"
+    ],
+    "drill_id": "serve_consistency"
+  },
+  {
+    "pattern_id": "opponent_adjustment",
+    "label": "对手已调整但自己未改变",
+    "trigger": {
+      "keywords": ["他后来变了", "对手调整", "后面不一样"],
+      "min_sets": 3,
+      "match_result": ["LOSE"]
+    },
+    "psychological_root": "被动挨打时还在重复原来的打法。",
+    "tactical_consequence": "对手找到解法后，你没有第二方案，局势一路走低。",
+    "fix": [
+      "每盘至少准备 1 个 B 方案（方向/节奏/站位）",
+      "一旦连续 2 分同一方式丢分，立刻切换落点或站位",
+      "用深中路先止血，再找机会变线"
+    ],
+    "drill_id": "rhythm_reset"
+  },
+  {
+    "pattern_id": "serve_pressure",
+    "label": "发球局压力失常",
+    "trigger": {
+      "self_state_tags": ["失误多"],
+      "keywords": ["发球局", "保发"]
+    },
+    "psychological_root": "发球局想得太多，动作僵硬。",
+    "tactical_consequence": "双误或二发软，主动权直接交出去。",
+    "fix": [
+      "发球局先保证一发进场率，不追求速度",
+      "二发固定一个上旋/切削动作，避免临场乱变",
+      "发球后第一拍提前想好方向：优先反手深区"
+    ],
+    "drill_id": "serve_consistency"
+  },
+  {
+    "pattern_id": "windy_condition_fail",
+    "label": "大风天适应失败",
+    "trigger": {
+      "match_conditions": { "weather": "windy" },
+      "match_result": ["LOSE"]
+    },
+    "psychological_root": "风大时动作变形，抛球和击球点更不稳定。",
+    "tactical_consequence": "回球容易出界或变短，失误连发。",
+    "fix": [
+      "减少上旋，先用平击把深度做出来",
+      "发球降低抛球高度，缩短动作",
+      "关键分优先打深中路，不追小角度"
+    ],
+    "drill_id": "windy_flat_drive"
+  },
+  {
+    "pattern_id": "backhand_repeat_error",
+    "label": "反手习惯性失误",
+    "trigger": {
+      "self_state_tags": ["反手频繁失误"]
+    },
+    "psychological_root": "反手稳定性不足，越打越心虚。",
+    "tactical_consequence": "对手持续压反手，你被迫回球短或失误。",
+    "fix": [
+      "先把反手斜线深度做出来，再考虑变线",
+      "反手击球点提前，减少拖拍",
+      "关键分优先用反手深中路稳住"
+    ],
+    "drill_id": "backhand_deep_crosscourt"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "condition_id": "windy",
+    "condition": "风大",
+    "impact": "上旋球轨迹不稳定、抛球容易受影响",
+    "adjustment": "减少上旋比例，增加平击和切削；发球降低抛球高度",
+    "match_conditions": { "weather": "windy" }
+  },
+  {
+    "condition_id": "hot",
+    "condition": "高温",
+    "impact": "体能消耗加速、注意力下降",
+    "adjustment": "主动缩短回合，多上网快速得分；换边时补充电解质",
+    "match_conditions": { "weather": "hot" }
+  },
+  {
+    "condition_id": "clay",
+    "condition": "红土",
+    "impact": "弹跳高且慢，利于防守方",
+    "adjustment": "增加切削和放短球变化，不要期望一拍打死",
+    "match_conditions": { "surface": "clay" }
+  },
+  {
+    "condition_id": "injured",
+    "condition": "带伤",
+    "impact": "移动受限，心理顾虑",
+    "adjustment": "站位提前，减少大范围移动；发球后立即回到 T 点",
+    "match_conditions": { "physical_state": "injured" }
+  },
+  {
+    "condition_id": "fatigued",
+    "condition": "疲劳",
+    "impact": "第二盘后执行力明显下降",
+    "adjustment": "第一盘就全力争胜，避免拖入决胜盘消耗战",
+    "match_conditions": { "physical_state": "fatigued" }
+  }
+]

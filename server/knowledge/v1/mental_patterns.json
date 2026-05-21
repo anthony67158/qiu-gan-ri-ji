@@ -1,0 +1,42 @@
+[
+  {
+    "mental_id": "tilted",
+    "label": "心态崩了",
+    "trigger_tags": ["心态崩了"],
+    "what_happens_physically": "击球节奏加快、引拍不完整、击球点偏晚。",
+    "short_fix": "系鞋带物理切断 + 接下来 3 分只打反手斜线。",
+    "avoid": ["当下立刻提速硬拼", "连续抱怨导致节奏更乱"]
+  },
+  {
+    "mental_id": "slow_feet",
+    "label": "脚步慢",
+    "trigger_tags": ["脚步慢"],
+    "what_happens_physically": "总是伸手够球，被动启动。",
+    "short_fix": "每拍后默念\"回位\"，强制往中线走两步。",
+    "avoid": ["站在原地等球", "球还没过网就提前挥拍"]
+  },
+  {
+    "mental_id": "many_mistakes",
+    "label": "失误多",
+    "trigger_tags": ["失误多"],
+    "what_happens_physically": "动作变形、用力方式错误。",
+    "short_fix": "降低击球速度 30%，重建节奏后再提速。",
+    "avoid": ["为了扳回来更大力击球", "每球都追求贴线"]
+  },
+  {
+    "mental_id": "tired",
+    "label": "体力差",
+    "trigger_tags": ["体力差"],
+    "what_happens_physically": "转腰不到位、步法跟不上。",
+    "short_fix": "主动缩短回合，发球后抢攻减少消耗。",
+    "avoid": ["硬拖长回合", "每球都跑到大角度"]
+  },
+  {
+    "mental_id": "distracted",
+    "label": "专注度不够",
+    "trigger_tags": ["专注度不够"],
+    "what_happens_physically": "接球前注意力分散、判断慢。",
+    "short_fix": "每球盯球心而不是球的整体。",
+    "avoid": ["分心看场外", "分前聊天"]
+  }
+]

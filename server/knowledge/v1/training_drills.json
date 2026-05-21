@@ -1,0 +1,182 @@
+[
+  {
+    "drill_id": "return_advance_step",
+    "label": "接发站位进步",
+    "target_issue": "接发被动",
+    "duration_minutes": 15,
+    "execution": "每次对方发球都站进半步，接发固定打反手深区；接完第一拍立刻回到中路，连续做 30 组。",
+    "key_reminder": "不追求漂亮，只追求方向和深度先到位。",
+    "no_partner_alternative": "对墙练：站位前移半步，连续把球打到墙面固定区域，模拟接发后第一拍。"
+  },
+  {
+    "drill_id": "approach_net_combo",
+    "label": "发球上网截击组合",
+    "target_issue": "领先保守/不敢上网",
+    "duration_minutes": 15,
+    "execution": "发球后第一拍必须向前两步并上网，截击目标打深中路或对手反手位，连续 20 组。",
+    "key_reminder": "重点不是截击质量，是发完球向前走的条件反射。",
+    "no_partner_alternative": "无搭子：发球后冲网做分腿垫步 + 模拟挥拍 20 次，固化上网节奏。"
+  },
+  {
+    "drill_id": "backhand_deep_crosscourt",
+    "label": "反手斜线深球",
+    "target_issue": "中性球稳定",
+    "duration_minutes": 20,
+    "execution": "连续把反手斜线打到对角底线后 1 米区域，10 球一组，共 10 组。",
+    "key_reminder": "深度优先于速度，宁可慢一点也要深。",
+    "no_partner_alternative": "对墙练：标记一个目标点，连续 100 球命中。"
+  },
+  {
+    "drill_id": "critical_point_routine",
+    "label": "关键分执行固化",
+    "target_issue": "关键分保守/压力下失误",
+    "duration_minutes": 10,
+    "execution": "模拟关键分：每分开始前固定做 1 个重置动作（系鞋带/拍框敲腿），然后只执行一个落点策略（反手深区）。",
+    "key_reminder": "关键分不临场发明新战术，只执行。",
+    "no_partner_alternative": "发球练习：每次发球前做同样的重置动作，连续 50 次，训练仪式感。"
+  },
+  {
+    "drill_id": "short_ball_control",
+    "label": "放短球控制",
+    "target_issue": "稳定型对手/短球处理",
+    "duration_minutes": 15,
+    "execution": "从中场位置练习短球：目标落在发球线内 1 米，10 球一组，共 8 组。",
+    "key_reminder": "先保证过网高度，再控制落点，不追求贴线。",
+    "no_partner_alternative": "对墙练：先打深球再上前放短，形成节奏切换。"
+  },
+  {
+    "drill_id": "low_ball_pass_net",
+    "label": "低球过网截击防守",
+    "target_issue": "应对上网对手",
+    "duration_minutes": 15,
+    "execution": "练习低平穿越：目标贴网 30–50cm 高度，落点打直线或斜线深区，左右各 30 球。",
+    "key_reminder": "先打对手脚下或身前，不要把球喂到对手拍面。",
+    "no_partner_alternative": "对墙练：压低弧线，保持球过网高度稳定。"
+  },
+  {
+    "drill_id": "serve_consistency",
+    "label": "发球稳定性",
+    "target_issue": "发球差/发球压力",
+    "duration_minutes": 20,
+    "execution": "一发目标：二区/一区各 30 个；二发固定上旋动作各 20 个，记录进球率。",
+    "key_reminder": "先把进场率做出来，再谈速度和角度。",
+    "no_partner_alternative": "无搭子：只练发球落点与节奏，配合固定重置动作。"
+  },
+  {
+    "drill_id": "rhythm_reset",
+    "label": "节奏重建练习",
+    "target_issue": "失去节奏恶性循环",
+    "duration_minutes": 10,
+    "execution": "连续 5 分只打深中路；每分之间做一次深呼吸 + 分腿垫步，找回节奏。",
+    "key_reminder": "先止血再进攻，别急着扳回来。",
+    "no_partner_alternative": "对墙练：只打深中路目标点 100 球，稳定节奏。"
+  },
+  {
+    "drill_id": "return_first_ball",
+    "label": "接发后第一拍",
+    "target_issue": "接发后被抢攻",
+    "duration_minutes": 15,
+    "execution": "接发后第一拍只练一个动作：回到中路后打反手斜线深区，连续 30 组。",
+    "key_reminder": "第一拍是回位后的第一拍，不是接发那一下。",
+    "no_partner_alternative": "对墙练：接球后快速回位两步，再击球。"
+  },
+  {
+    "drill_id": "net_decision",
+    "label": "上网决策训练",
+    "target_issue": "不敢上网/上网时机差",
+    "duration_minutes": 15,
+    "execution": "每回合遇到短球必须上网：先深到对手反手，再跟进截击，20 组。",
+    "key_reminder": "上网不是赌，是在有优势球时把分拿走。",
+    "no_partner_alternative": "无搭子：短球上前 + 分腿垫步 + 模拟截击落点。"
+  },
+  {
+    "drill_id": "depth_height_control",
+    "label": "深度与高度控制",
+    "target_issue": "被快节奏带乱/失误多",
+    "duration_minutes": 15,
+    "execution": "交替练：1 球高弹深球、1 球平击深球，目标都在底线后 1 米区域，10 组。",
+    "key_reminder": "用高度与深度控制节奏，不用速度。",
+    "no_partner_alternative": "对墙练：同一目标点，控制弧线高低交替。"
+  },
+  {
+    "drill_id": "tiebreak_sim",
+    "label": "抢七模拟",
+    "target_issue": "关键分心理波动",
+    "duration_minutes": 10,
+    "execution": "模拟抢七：每分前重置动作，给自己设定落点（深中路/反手深区）并执行 20 分。",
+    "key_reminder": "抢七只执行最熟的两套球，不试新动作。",
+    "no_partner_alternative": "发球+第一拍组合：每分做一次发球落点+第一拍落点的组合练习。"
+  },
+  {
+    "drill_id": "windy_flat_drive",
+    "label": "大风天平击适应",
+    "target_issue": "大风天失误率高",
+    "duration_minutes": 15,
+    "execution": "用较低弧线连续打深中路，目标落在底线后 1 米内，10 球一组，共 10 组。",
+    "key_reminder": "弧线越低越稳，落点比速度更重要。",
+    "no_partner_alternative": "对墙练：控制球飞行弧线低平，连续 80 球。"
+  },
+  {
+    "drill_id": "speed_change_drill",
+    "label": "变速节奏训练",
+    "target_issue": "对手切削多/节奏乱",
+    "duration_minutes": 15,
+    "execution": "一球平击深、一球切削短，交替练 10 球一组，共 8 组。",
+    "key_reminder": "变速前先保证深度，别为了变速牺牲落点。",
+    "no_partner_alternative": "对墙练：平击与切削交替，保持落点在同一区域。"
+  },
+  {
+    "drill_id": "doubles_poach_drill",
+    "label": "双打截击偷袭",
+    "target_issue": "双打配合/网前压迫",
+    "duration_minutes": 15,
+    "execution": "双打站位模拟：网前每 2 分做一次偷袭截击，目标落在对方脚下或中路空档，20 组。",
+    "key_reminder": "偷袭前先观察对手准备方向，不盲目冲。",
+    "no_partner_alternative": "无搭子：模拟横向跨步 + 截击挥拍动作 30 次。"
+  },
+  {
+    "drill_id": "slice_control",
+    "label": "切削球控制",
+    "target_issue": "应对进攻型底线选手",
+    "duration_minutes": 15,
+    "execution": "反手切削练习：保持球低弹跳，目标落在对手反手深区，10球一组，共8组。",
+    "key_reminder": "切削下旋越足，球弹跳越低，对手越难发力进攻。",
+    "no_partner_alternative": "对墙练：连续切削低球，保持球反弹高度不超过膝盖。"
+  },
+  {
+    "drill_id": "approach_volley",
+    "label": "随球上网练习",
+    "target_issue": "应对防守反击型选手",
+    "duration_minutes": 20,
+    "execution": "打出深球后立即向前三步上网，截击目标打对手脚下，连续20组。",
+    "key_reminder": "随球上网要果断，不要在底线犹豫不前。",
+    "no_partner_alternative": "无搭子：打深球后冲网做分腿垫步 + 低截击挥拍。"
+  },
+  {
+    "drill_id": "consistency_stability",
+    "label": "稳定性训练",
+    "target_issue": "应对全面型打法选手",
+    "duration_minutes": 15,
+    "execution": "连续打30个反手深区球，保证所有球都落在底线1米范围内，不追求速度。",
+    "key_reminder": "稳定性比暴力进攻更重要，减少非受迫性失误就是得分。",
+    "no_partner_alternative": "对墙练：连续100球打中墙面同一目标区域。"
+  },
+  {
+    "drill_id": "rise_ball_hit",
+    "label": "上升期击球练习",
+    "target_issue": "应对强上旋打法选手",
+    "duration_minutes": 20,
+    "execution": "站位前移30cm，在球弹起后还没到最高点时就击球，目标打深中路，连续30组。",
+    "key_reminder": "击球点越靠前，上旋的威胁越小，回球越有攻击性。",
+    "no_partner_alternative": "对墙练：站位离墙更近，在球反弹后立即击打，练习上升期手感。"
+  },
+  {
+    "drill_id": "low_return_lob",
+    "label": "低回球+挑高球组合",
+    "target_issue": "应对发球上网型选手",
+    "duration_minutes": 15,
+    "execution": "交替练习：1次低平回球打脚下，1次高弧线挑高球过头顶，各20次。",
+    "key_reminder": "低回球要低于网带，挑高球要足够高够深，不给对手高压机会。",
+    "no_partner_alternative": "对墙练：交替打低平球和高吊球，控制弧线高度变化。"
+  }
+]
